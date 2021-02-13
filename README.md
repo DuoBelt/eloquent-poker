@@ -53,3 +53,12 @@
 * * *
 
 This project is licensed under the [GPL-3.0](LICENSE.md).
+
+
+## Configuration
+* * *
+
+package.json add HTTPS=false 
+
+  "scripts": {
+    "start": "HTTPS=false node scripts/start.js",
